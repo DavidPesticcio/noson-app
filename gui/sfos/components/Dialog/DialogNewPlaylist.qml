@@ -35,6 +35,10 @@ DialogBase {
 
     TextField {
         id: playlistName
+        anchors {
+            left: parent.left
+            right: parent.right
+        }
         placeholderText: qsTr("Enter playlist name")
         width: dialog.width
     }
